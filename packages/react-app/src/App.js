@@ -3,7 +3,7 @@ import { useEthers } from "@usedapp/core";
 import styles from "./styles";
 import { uniswapLogo } from "./assets";
 import { WalletButton, Exchange, Loader } from "./components";
-import {usePools} from "./hooks"
+import {usePools} from "./hooks/index"
 
 const App = () => {
   const { account } = useEthers();
